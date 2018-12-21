@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="icon-box" v-for="(icon, index) in icons" :key="icon.name">
+        <div class="icon-box" v-for="(icon, index) in icons" :key="icon.name" @click="check">
             <div class="icon" :class="`${icons[index].name} ${icons[index].size}`"></div>
         </div>
     </div>
@@ -22,9 +22,13 @@ export default {
         {'name': 'minus', 'size': 'icoSizeXL'},
         {'name': 'check', 'size': 'icoSizeXL'},
         {'name': 'remove', 'size': 'icoSizeXL'}
-
       ]
     }
+  },
+  methods: {
+      check() {
+          console.log(this.icons)
+      }
   }
 }
 </script>
