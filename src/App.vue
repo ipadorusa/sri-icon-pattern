@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <Navbar />
-    <div id="container">
+    <div id="container" class="container">
       <router-view/>
     </div>
   </div>
 </template>
 <script>
-import Navbar from './components/Navbar'
+import '@/assets/css/pattern_layout.css'
+import Navbar from '@/components/Navbar'
 export default {
   name: 'App',
   components: {
@@ -15,6 +16,3 @@ export default {
   }
 }
 </script>
-<style>
-* {margin:0;padding:0}
-</style>

@@ -1,0 +1,16 @@
+.header {position:fixed;top:0;width:100%;height:60px;padding:0 20px;line-height:60px;background:#1b1c1d;box-sizing:border-box}
+.header .logo {display:inline-block;}
+.header .logo a {font-size:25px;line-height:60px;font-weight:bold;color:#fff;}
+.nav {position: absolute;right:20px;top:0;font-size:25px}
+.nav a {display:inline-block;color:#fff;font-weight: bold;margin-left:30px}
+#container {padding-top:60px} 
+
+.wrap_icon {max-width:1320px;margin:0 auto;position: relative;height: 100vh;overflow: hidden;}
+.wrap_icon:after {content: "";display: block;clear: both;}
+.wrap_icon.open .iconlist {width: 63.25757576%;}
+.wrap_icon .title {margin-top:30px}
+
+.iconlist {width:100%;height:100vh;float:left;box-sizing: border-box;padding:30px 0}
+.codelist {width: 36.74242424%;height:100vh;float:right;box-sizing: border-box;padding:30px 0}
+
+.temp_title {width:100%;height:100vh;text-align:center;font-size:25px;color:#222;line-height:100vh}
